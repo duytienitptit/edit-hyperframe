@@ -83,7 +83,7 @@ npx hyperframes doctor
 ```
 
 ## Shared repo (GitHub, two people)
-This folder is the private GitHub repo `edit-hyperframe`, shared by two people; its sibling `../Channel_Dad` is `channel-dad`. New machine → `CAI-DAT.md`.
+This folder is the public GitHub repo `edit-hyperframe`, shared by two people; its sibling `../Channel_Dad` is `channel-dad`. New machine → `CAI-DAT.md`.
 - Start of a session: `git pull` here and in the channel repo. After each finished piece of work (a style decision, a project.md update, edit data): commit with a short message and push.
 - Only text is versioned: media, renders, review stills, `comp/assets/`, libraries (except their `index.json`) and `projects/` (personal test projects) are git-ignored. Rebuild generated files instead of committing them.
 - On a merge conflict, stop and show the user both versions; never overwrite the other person's change.

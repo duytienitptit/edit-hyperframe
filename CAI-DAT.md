@@ -6,7 +6,7 @@ Cách nhanh nhất: mở Claude Code trong thư mục này và nói **"Cài đ�
 
 ## Yêu cầu
 - Mac chip Apple (M1 trở lên). Công cụ chép lời dùng MLX, chỉ chạy trên chip Apple.
-- Homebrew, Claude Code, tài khoản GitHub đã được mời vào hai kho.
+- Homebrew, Claude Code. Muốn đẩy thay đổi lên kho thì cần tài khoản GitHub có quyền ghi.
 
 ## Các bước
 1. **Phần mềm nền** (Homebrew):
