@@ -1,0 +1,25 @@
+{
+  "_note": "Speaker reframe per camera setup, so the face lands in safe_zone.focus. scale with origin top-left, then translate x/y px; face = source-px face center (tools/faces.swift at 1.0/6/15/17.5 s and 21/24 s). Keep x in [1080(1-scale),0] and y in [1920(1-scale),0] so no edge shows.",
+  "speaker": [
+    {
+      "from": 0.0,
+      "scale": 1.1,
+      "x": -1,
+      "y": -157,
+      "face": [
+        492,
+        711
+      ]
+    },
+    {
+      "from": 20.0,
+      "scale": 1.13,
+      "x": -2,
+      "y": -250,
+      "face": [
+        480,
+        794
+      ]
+    }
+  ]
+}

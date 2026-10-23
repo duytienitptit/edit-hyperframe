@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "CapGeorgia"; src: url("assets/fonts/Georgia-BoldItalic.ttf"); font-display: block; }
+      @font-face { font-family: "HiAvenir"; src: url("assets/fonts/AvenirNextCondensed-DemiBold.ttf"); font-display: block; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #000; }
+      #stage { position: absolute; inset: 0; }
+      .layer { position: absolute; inset: 0; }
+      .layer video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      .cap { position: absolute; left: 0; right: 0; top: 965px; display: flex; justify-content: center; }
+      .hl { position: absolute; left: 110px; top: 1092px; width: 745px; height: 420px; }
+      .hl-box { display: flex; flex-direction: column; align-items: flex-start; filter: drop-shadow(0 4px 10px rgba(0,0,0,.55)); }
+      .hl-line { display: block; }
+      .hl-line .mask { display: block; overflow: hidden; padding: 0.04em 0.04em 0.06em; }
+      .hl-line.key { margin: -0.06em 0 -0.12em; }
+      .hl-line .in { display: block; position: relative; transform-origin: 0% 100%; white-space: nowrap; }
+      .hl-line.lead .in { font-family: "CapGeorgia", Georgia, serif; font-size: 54px; color: #FFF4DC;
+        line-height: 1.15; -webkit-text-stroke: 2px rgba(20,14,4,.85); paint-order: stroke fill; }
+      /* tall line box: background-clip text only paints inside the box, and stacked Vietnamese marks (Ấ, Ể, Ủ) sit above the caps */
+      .hl-line.key .in { font-family: "HiAvenir", sans-serif; font-size: 128px; line-height: 1.4;
+        letter-spacing: 0.01em; text-transform: uppercase; }
+      .hl-line.key .gold { display: block; color: transparent; -webkit-background-clip: text; background-clip: text;
+        background-image: linear-gradient(180deg, #FFE9A3, #F2C94C, #C98E1E); }
+      .hl-line.key .shine { position: absolute; inset: 0; color: transparent; -webkit-background-clip: text; background-clip: text;
+        background-image: linear-gradient(105deg, transparent 38%, rgba(255,255,255,.95) 50%, transparent 62%);
+        background-size: 250% 100%; background-repeat: no-repeat; background-position: 160% 0; }
+      .cap-in { font-family: "CapGeorgia", Georgia, serif; font-size: 50px; color: #F2D03B; white-space: nowrap;
+        max-width: 929px; -webkit-text-stroke: 3px #1a1405; paint-order: stroke fill;
+        text-shadow: 0 2px 6px rgba(0,0,0,.75); line-height: 1.2; }
+      #fade { position: absolute; inset: 0; background: #000; opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="26.01" data-width="1080" data-height="1920">
+      <div id="stage"><div id="reframe" class="layer"><div id="cam" class="layer"><video id="speaker" src="assets/graded/dad.mp4" data-start="0" data-duration="26.01" data-media-start="0" data-track-index="0" data-has-audio="true" playsinline data-automation="{&quot;version&quot;: 1, &quot;lanes&quot;: [{&quot;target&quot;: &quot;volume&quot;, &quot;points&quot;: [{&quot;t&quot;: 0, &quot;v&quot;: 1}, {&quot;t&quot;: 25.71, &quot;v&quot;: 1}, {&quot;t&quot;: 26.01, &quot;v&quot;: 0}]}]}"></video></div></div><div id="bw-B1" class="layer"><video id="br-B1" class="clip" src="assets/graded/B1_pexels_6266251.mp4" muted playsinline data-start="2.84" data-duration="2.66" data-media-start="1.0" data-track-index="1"></video></div><div id="bw-B2" class="layer"><video id="br-B2" class="clip" src="assets/graded/B2_pexels_6614775.mp4" muted playsinline data-start="6.94" data-duration="3.06" data-media-start="1.0" data-track-index="2"></video></div><div id="bw-B3a" class="layer"><video id="br-B3a" class="clip" src="assets/graded/B3a_pexels_36632263.mp4" muted playsinline data-start="10.0" data-duration="1.82" data-media-start="1.0" data-track-index="1"></video></div><div id="bw-B3b" class="layer"><video id="br-B3b" class="clip" src="assets/graded/B3b_pexels_6944076.mp4" muted playsinline data-start="11.82" data-duration="2.18" data-media-start="1.0" data-track-index="2"></video></div><div id="bw-B4" class="layer"><video id="br-B4" class="clip" src="assets/graded/B4_pexels_7247871.mp4" muted playsinline data-start="18.24" data-duration="2.0" data-media-start="1.0" data-track-index="1"></video></div><div id="bw-B5" class="layer"><video id="br-B5" class="clip" src="assets/graded/B5_pexels_5836561.mp4" muted playsinline data-start="20.24" data-duration="2.18" data-media-start="1.0" data-track-index="2"></video></div></div>
+      <div id="caps"><div id="cap-0" class="cap clip" data-start="0.0" data-duration="1.86" data-track-index="20"><span class="cap-in">Con à, nghĩ lại xem</span></div><div id="cap-1" class="cap clip" data-start="1.86" data-duration="0.98" data-track-index="20"><span class="cap-in">Mình đang làm chủ đồng tiền</span></div><div id="cap-2" class="cap clip" data-start="5.8" data-duration="1.14" data-track-index="20"><span class="cap-in">Kiếm được nhiều tiền</span></div><div id="cap-3" class="cap clip" data-start="6.94" data-duration="0.55" data-track-index="20"><span class="cap-in">Mà không dám nghỉ lấy một ngày</span></div><div id="cap-4" class="cap clip" data-start="14.18" data-duration="1.78" data-track-index="20"><span class="cap-in">Muốn tiền làm việc cho mình</span></div><div id="cap-5" class="cap clip" data-start="15.96" data-duration="2.28" data-track-index="20"><span class="cap-in">Con phải hiểu nó được dùng vào đâu</span></div><div id="cap-6" class="cap clip" data-start="18.24" data-duration="1.44" data-track-index="20"><span class="cap-in">Lời từ đâu mà có</span></div><div id="cap-7" class="cap clip" data-start="20.24" data-duration="2.18" data-track-index="20"><span class="cap-in">Chứ tiêu tiền chỉ vì thú vui</span></div><div id="cap-8" class="cap clip" data-start="22.42" data-duration="1.15" data-track-index="20"><span class="cap-in">Đam mê của bản thân</span></div></div><div id="hls"><div id="H1" class="hl clip" data-start="2.84" data-duration="2.64" data-track-index="21"><div class="hl-box"><div class="hl-line key" id="H1-l0"><span class="mask"><span class="in" style="font-size: 128px"><span class="gold">LÀM CHỦ</span><span class="shine" aria-hidden="true">LÀM CHỦ</span></span></span></div><div class="hl-line lead" id="H1-l1"><span class="mask"><span class="in">hay bị đồng tiền</span></span></div><div class="hl-line key" id="H1-l2"><span class="mask"><span class="in" style="font-size: 128px"><span class="gold">LÀM CHỦ?</span><span class="shine" aria-hidden="true">LÀM CHỦ?</span></span></span></div></div></div><div id="H2" class="hl clip" data-start="7.49" data-duration="2.36" data-track-index="21"><div class="hl-box"><div class="hl-line key" id="H2-l0"><span class="mask"><span class="in" style="font-size: 101.5px"><span class="gold">KHÔNG DÁM NGHỈ</span><span class="shine" aria-hidden="true">KHÔNG DÁM NGHỈ</span></span></span></div><div class="hl-line lead" id="H2-l1"><span class="mask"><span class="in">lấy một ngày</span></span></div></div></div><div id="H3" class="hl clip" data-start="9.85" data-duration="1.95" data-track-index="21"><div class="hl-box"><div class="hl-line lead" id="H3-l0"><span class="mask"><span class="in">đi chiếc</span></span></div><div class="hl-line key" id="H3-l1"><span class="mask"><span class="in" style="font-size: 128px"><span class="gold">XE CẢ TỈ</span><span class="shine" aria-hidden="true">XE CẢ TỈ</span></span></span></div></div></div><div id="H4" class="hl clip" data-start="11.67" data-duration="2.25" data-track-index="21"><div class="hl-box"><div class="hl-line lead" id="H4-l0"><span class="mask"><span class="in">tháng nào cũng</span></span></div><div class="hl-line key" id="H4-l1"><span class="mask"><span class="in" style="font-size: 128px"><span class="gold">MẤT NGỦ</span><span class="shine" aria-hidden="true">MẤT NGỦ</span></span></span></div></div></div><div id="H5" class="hl clip" data-start="23.57" data-duration="2.44" data-track-index="21"><div class="hl-box"><div class="hl-line lead" id="H5-l0"><span class="mask"><span class="in">thì nhiều đâu</span></span></div><div class="hl-line key" id="H5-l1"><span class="mask"><span class="in" style="font-size: 128px"><span class="gold">CŨNG HẾT</span><span class="shine" aria-hidden="true">CŨNG HẾT</span></span></span></div></div></div></div><audio id="music" src="assets/music.mp3" data-start="0" data-duration="26.01" data-media-start="1.5" data-track-index="10" data-volume="0.18" data-automation="{&quot;version&quot;: 1, &quot;lanes&quot;: [{&quot;target&quot;: &quot;volume&quot;, &quot;points&quot;: [{&quot;t&quot;: 0, &quot;v&quot;: 0}, {&quot;t&quot;: 0.6, &quot;v&quot;: 1}, {&quot;t&quot;: 24.51, &quot;v&quot;: 1}, {&quot;t&quot;: 26.01, &quot;v&quot;: 0}]}]}"></audio>
+      <div id="fade"></div>
+    </div>
+    <script>
+      // registered synchronously: an async registration (fonts.ready) let the renderer capture before the timeline existed
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#reframe", {x: -1, y: -157, scale: 1.1, transformOrigin: "0px 0px"}, 0.0);
+      tl.set("#cam", {transformOrigin: "492px 711px"}, 0.0);
+      tl.set("#reframe", {x: -2, y: -250, scale: 1.13, transformOrigin: "0px 0px"}, 20.0);
+      tl.set("#cam", {transformOrigin: "480px 794px"}, 20.0);
+      tl.fromTo("#cam", {scale: 1}, {scale: 1.04, duration: 2.84, ease: "none", immediateRender: false}, 0.0);
+      tl.fromTo("#cam", {scale: 1}, {scale: 1.04, duration: 1.44, ease: "none", immediateRender: false}, 5.5);
+      tl.fromTo("#cam", {scale: 1}, {scale: 1.04, duration: 4.24, ease: "none", immediateRender: false}, 14.0);
+      tl.fromTo("#cam", {scale: 1}, {scale: 1.04, duration: 3.59, ease: "none", immediateRender: false}, 22.42);
+      tl.fromTo("#bw-B1", {scale: 1}, {scale: 1.06, duration: 2.66, ease: "none", immediateRender: false}, 2.84);
+      tl.fromTo("#bw-B2", {scale: 1}, {scale: 1.06, duration: 3.06, ease: "none", immediateRender: false}, 6.94);
+      tl.fromTo("#bw-B3a", {scale: 1}, {scale: 1.06, duration: 1.82, ease: "none", immediateRender: false}, 10.0);
+      tl.fromTo("#bw-B3b", {scale: 1}, {scale: 1.06, duration: 2.18, ease: "none", immediateRender: false}, 11.82);
+      tl.fromTo("#bw-B4", {scale: 1}, {scale: 1.06, duration: 2.0, ease: "none", immediateRender: false}, 18.24);
+      tl.fromTo("#bw-B5", {scale: 1}, {scale: 1.06, duration: 2.18, ease: "none", immediateRender: false}, 20.24);
+      tl.set("#H1-l0 .in", {yPercent: 110}, 2.84);
+      tl.fromTo("#H1-l0 .in", {yPercent: 110, scaleX: 1.1, scaleY: 1.04}, {yPercent: 0, scaleX: 1, scaleY: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 2.84);
+      tl.fromTo("#H1-l0 .shine", {backgroundPosition: "160% 0"}, {backgroundPosition: "-60% 0", duration: 0.55, ease: "power2.inOut", immediateRender: false}, 3.14);
+      tl.set("#H1-l1 .in", {yPercent: 110, opacity: 0}, 2.84);
+      tl.fromTo("#H1-l1 .in", {yPercent: 110, opacity: 0}, {yPercent: 0, opacity: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 4.03);
+      tl.set("#H1-l2 .in", {yPercent: 110}, 2.84);
+      tl.fromTo("#H1-l2 .in", {yPercent: 110, scaleX: 1.1, scaleY: 1.04}, {yPercent: 0, scaleX: 1, scaleY: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 4.63);
+      tl.to("#H1 .hl-box", {yPercent: -6, opacity: 0, duration: 0.3, ease: "power2.in"}, 5.18);
+      tl.set("#H2-l0 .in", {yPercent: 110}, 7.49);
+      tl.fromTo("#H2-l0 .in", {yPercent: 110, scaleX: 1.1, scaleY: 1.04}, {yPercent: 0, scaleX: 1, scaleY: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 7.49);
+      tl.fromTo("#H2-l0 .shine", {backgroundPosition: "160% 0"}, {backgroundPosition: "-60% 0", duration: 0.55, ease: "power2.inOut", immediateRender: false}, 7.79);
+      tl.set("#H2-l1 .in", {yPercent: 110, opacity: 0}, 7.49);
+      tl.fromTo("#H2-l1 .in", {yPercent: 110, opacity: 0}, {yPercent: 0, opacity: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 8.19);
+      tl.to("#H2 .hl-box", {yPercent: -6, opacity: 0, duration: 0.3, ease: "power2.in"}, 9.55);
+      tl.set("#H3-l0 .in", {yPercent: 110, opacity: 0}, 9.85);
+      tl.fromTo("#H3-l0 .in", {yPercent: 110, opacity: 0}, {yPercent: 0, opacity: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 9.85);
+      tl.set("#H3-l1 .in", {yPercent: 110}, 9.85);
+      tl.fromTo("#H3-l1 .in", {yPercent: 110, scaleX: 1.1, scaleY: 1.04}, {yPercent: 0, scaleX: 1, scaleY: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 10.49);
+      tl.fromTo("#H3-l1 .shine", {backgroundPosition: "160% 0"}, {backgroundPosition: "-60% 0", duration: 0.55, ease: "power2.inOut", immediateRender: false}, 10.79);
+      tl.to("#H3 .hl-box", {yPercent: -6, opacity: 0, duration: 0.3, ease: "power2.in"}, 11.5);
+      tl.set("#H4-l0 .in", {yPercent: 110, opacity: 0}, 11.67);
+      tl.fromTo("#H4-l0 .in", {yPercent: 110, opacity: 0}, {yPercent: 0, opacity: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 11.67);
+      tl.set("#H4-l1 .in", {yPercent: 110}, 11.67);
+      tl.fromTo("#H4-l1 .in", {yPercent: 110, scaleX: 1.1, scaleY: 1.04}, {yPercent: 0, scaleX: 1, scaleY: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 12.27);
+      tl.fromTo("#H4-l1 .shine", {backgroundPosition: "160% 0"}, {backgroundPosition: "-60% 0", duration: 0.55, ease: "power2.inOut", immediateRender: false}, 12.57);
+      tl.to("#H4 .hl-box", {yPercent: -6, opacity: 0, duration: 0.3, ease: "power2.in"}, 13.62);
+      tl.set("#H5-l0 .in", {yPercent: 110, opacity: 0}, 23.57);
+      tl.fromTo("#H5-l0 .in", {yPercent: 110, opacity: 0}, {yPercent: 0, opacity: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 23.57);
+      tl.set("#H5-l1 .in", {yPercent: 110}, 23.57);
+      tl.fromTo("#H5-l1 .in", {yPercent: 110, scaleX: 1.1, scaleY: 1.04}, {yPercent: 0, scaleX: 1, scaleY: 1, duration: 0.55, ease: "power3.out", immediateRender: false}, 24.57);
+      tl.fromTo("#H5-l1 .shine", {backgroundPosition: "160% 0"}, {backgroundPosition: "-60% 0", duration: 0.55, ease: "power2.inOut", immediateRender: false}, 24.87);
+      tl.fromTo("#fade", {opacity: 0}, {opacity: 1, duration: 1.5, ease: "power1.in", immediateRender: false}, 24.51);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

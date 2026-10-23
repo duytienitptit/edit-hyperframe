@@ -1,0 +1,35 @@
+.DS_Store
+
+# Installed per machine (see CAI-DAT.md)
+node_modules/
+tools/.venv
+tools/models/separator/
+.claude/launch.json
+
+# Shared media libraries stay local; only their index.json is shared
+library/**
+!library/**/
+!library/**/index.json
+
+# Test projects outside the shared channel work
+/projects/
+
+# Media, renders, caches
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.m4a
+*.aif
+*.aiff
+*.ogg
+*.webm
+!talking-head/projects/*/source/*.mp4
+**/.hyperframes/
+**/.transcode-cache/
+**/output/
+**/review/
+**/comp/assets/
+
+# Style references cut from other creators' videos: local only
+talking-head/styles/refs/

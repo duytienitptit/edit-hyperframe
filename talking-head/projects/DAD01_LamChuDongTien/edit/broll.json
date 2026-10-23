@@ -1,0 +1,213 @@
+{
+  "_note": "B-roll plan for DAD01 (style bw-film-quote). Times in source seconds of source/dad.mp4 (before any pause trimming). Candidates found by Claude on Pexels (free license, no attribution required); file = library path once downloaded. Picture cuts only; voice runs continuously. Timeline rows: file = chosen clip (main by default), in = source in-point of that clip in seconds. Per-clip color fixes live in edit/grade.json 'pre'.",
+  "timeline": [
+    {
+      "start": 0.0,
+      "end": 2.84,
+      "kind": "source",
+      "shot": "speaker medium (hook)"
+    },
+    {
+      "start": 2.84,
+      "end": 5.5,
+      "kind": "broll",
+      "id": "B1",
+      "theme": "dem-tien",
+      "line": "…làm chủ đồng tiền hay vẫn bị đồng tiền làm chủ?",
+      "file": "library/broll/dem-tien/pexels_6266251.mp4",
+      "in": 2.0
+    },
+    {
+      "start": 5.5,
+      "end": 6.94,
+      "kind": "source",
+      "shot": "speaker medium"
+    },
+    {
+      "start": 6.94,
+      "end": 10.0,
+      "kind": "broll",
+      "id": "B2",
+      "theme": "lam-viec-kiet-suc",
+      "line": "…mà không dám nghỉ lấy một ngày.",
+      "file": "library/broll/lam-viec-kiet-suc/pexels_6614775.mp4",
+      "in": 4.0
+    },
+    {
+      "start": 10.0,
+      "end": 11.82,
+      "kind": "broll",
+      "id": "B3a",
+      "theme": "xe-sang",
+      "line": "Đi chiếc xe cả tỉ mà…",
+      "file": "library/broll/xe-sang/pexels_36632263.mp4",
+      "in": 3.0,
+      "_pick": "alt (user: POV looks better)"
+    },
+    {
+      "start": 11.82,
+      "end": 14.0,
+      "kind": "broll",
+      "id": "B3b",
+      "theme": "mat-ngu",
+      "line": "…tháng nào cũng mất ngủ vì lo tiền trả nợ.",
+      "file": "library/broll/mat-ngu/pexels_6944076.mp4",
+      "in": 10.0
+    },
+    {
+      "start": 14.0,
+      "end": 18.24,
+      "kind": "source",
+      "shot": "speaker medium"
+    },
+    {
+      "start": 18.24,
+      "end": 20.24,
+      "kind": "broll",
+      "id": "B4",
+      "theme": "dau-tu",
+      "line": "…lời từ đâu mà có.",
+      "_why": "also hides the source camera switch at 20.0",
+      "file": "library/broll/dau-tu/pexels_7247871.mp4",
+      "in": 2.0
+    },
+    {
+      "start": 20.24,
+      "end": 22.42,
+      "kind": "broll",
+      "id": "B5",
+      "theme": "mua-sam",
+      "line": "Chứ tiêu tiền chỉ vì thú vui…",
+      "file": "library/broll/mua-sam/pexels_5836561.mp4",
+      "in": 3.0
+    },
+    {
+      "start": 22.42,
+      "end": 26.01,
+      "kind": "source",
+      "shot": "speaker close-up (conclusion), fade to black at the end"
+    }
+  ],
+  "candidates": {
+    "B1": [
+      {
+        "role": "main",
+        "pexels": 6266251,
+        "title": "A Person Counting Dollar Bills",
+        "dur": 11,
+        "file_url": "https://videos.pexels.com/video-files/6266251/6266251-hd_1080_1920_25fps.mp4",
+        "mb": 4.1,
+        "file": "library/broll/dem-tien/pexels_6266251.mp4"
+      },
+      {
+        "role": "alt",
+        "pexels": 6700265,
+        "title": "A Person Counting Cash",
+        "dur": 17,
+        "file_url": "https://videos.pexels.com/video-files/6700265/6700265-hd_1080_1920_25fps.mp4",
+        "mb": 5.9,
+        "file": "library/broll/dem-tien/pexels_6700265.mp4"
+      }
+    ],
+    "B2": [
+      {
+        "role": "main",
+        "pexels": 6614775,
+        "title": "A Man Fell Asleep While Working",
+        "dur": 25,
+        "file_url": "https://videos.pexels.com/video-files/6614775/6614775-hd_1080_1920_25fps.mp4",
+        "mb": 6.5,
+        "file": "library/broll/lam-viec-kiet-suc/pexels_6614775.mp4"
+      },
+      {
+        "role": "alt",
+        "pexels": 7660187,
+        "title": "Tired Man Sitting on Chair",
+        "dur": 10,
+        "file_url": "https://videos.pexels.com/video-files/7660187/7660187-hd_1080_1920_25fps.mp4",
+        "mb": 4.3,
+        "file": "library/broll/lam-viec-kiet-suc/pexels_7660187.mp4"
+      }
+    ],
+    "B3a": [
+      {
+        "role": "main",
+        "pexels": 32391975,
+        "title": "Luxury Car Driving Along Scenic Coastline Road",
+        "dur": 33,
+        "file_url": "https://videos.pexels.com/video-files/32391975/13817161_1080_1920_25fps.mp4",
+        "mb": 104.7,
+        "file": "library/broll/xe-sang/pexels_32391975.mp4"
+      },
+      {
+        "role": "alt",
+        "pexels": 36632263,
+        "title": "Driving POV in Modern Car on Sunny Day",
+        "dur": 23,
+        "file_url": "https://videos.pexels.com/video-files/36632263/15530969_1080_1920_60fps.mp4",
+        "mb": 44.9,
+        "file": "library/broll/xe-sang/pexels_36632263.mp4"
+      }
+    ],
+    "B3b": [
+      {
+        "role": "main",
+        "pexels": 6944076,
+        "title": "A Nocturnal Man",
+        "dur": 56,
+        "file_url": "https://videos.pexels.com/video-files/6944076/6944076-hd_1080_2048_25fps.mp4",
+        "mb": 24.8,
+        "file": "library/broll/mat-ngu/pexels_6944076.mp4"
+      },
+      {
+        "role": "alt",
+        "pexels": 6943536,
+        "title": "A Man Using a Mobile Phone on Bed",
+        "dur": 25,
+        "file_url": "https://videos.pexels.com/video-files/6943536/6943536-hd_1080_2048_25fps.mp4",
+        "mb": 9.0,
+        "file": "library/broll/mat-ngu/pexels_6943536.mp4"
+      }
+    ],
+    "B4": [
+      {
+        "role": "main",
+        "pexels": 7247871,
+        "title": "A Person Tracking the Stock Exchange on His Phone",
+        "dur": 15,
+        "file_url": "https://videos.pexels.com/video-files/7247871/7247871-hd_1080_1920_30fps.mp4",
+        "mb": 3.7,
+        "file": "library/broll/dau-tu/pexels_7247871.mp4"
+      },
+      {
+        "role": "alt",
+        "pexels": 7247861,
+        "title": "Calculating and Taking Notes",
+        "dur": 17,
+        "file_url": "https://videos.pexels.com/video-files/7247861/7247861-hd_1080_1920_30fps.mp4",
+        "mb": 5.1,
+        "file": "library/broll/dau-tu/pexels_7247861.mp4"
+      }
+    ],
+    "B5": [
+      {
+        "role": "main",
+        "pexels": 5836561,
+        "title": "A Woman Carrying Shopping Bags",
+        "dur": 18,
+        "file_url": "https://videos.pexels.com/video-files/5836561/5836561-hd_1080_1920_30fps.mp4",
+        "mb": 4.3,
+        "file": "library/broll/mua-sam/pexels_5836561.mp4"
+      },
+      {
+        "role": "alt",
+        "pexels": 6565836,
+        "title": "A Person Holding Paper Bags",
+        "dur": 10,
+        "file_url": "https://videos.pexels.com/video-files/6565836/6565836-hd_1080_1920_24fps.mp4",
+        "mb": 6.3,
+        "file": "library/broll/mua-sam/pexels_6565836.mp4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_note": "Keyword text animations in safe_zone.white (user approved 4 moments, 2026-10-21). at = word start from analysis/transcript.json; out = start of exit (gone before the next shot change). kind lead = small serif italic, key = big condensed gold with one shine pass. Captions are hidden while a highlight is on.",
+  "items": [
+    {
+      "id": "H1",
+      "out": 5.18,
+      "lines": [
+        {
+          "text": "LÀM CHỦ",
+          "kind": "key",
+          "at": 2.99,
+          "_word": "đồng; motion starts exactly on the 2.84 cut to B1 (at − 0.15)"
+        },
+        {
+          "text": "hay bị đồng tiền",
+          "kind": "lead",
+          "at": 4.18,
+          "_word": "bị"
+        },
+        {
+          "text": "LÀM CHỦ?",
+          "kind": "key",
+          "at": 4.78,
+          "_word": "làm"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "out": 9.55,
+      "lines": [
+        {
+          "text": "KHÔNG DÁM NGHỈ",
+          "kind": "key",
+          "at": 7.64,
+          "_word": "không"
+        },
+        {
+          "text": "lấy một ngày",
+          "kind": "lead",
+          "at": 8.34,
+          "_word": "lấy"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "out": 11.5,
+      "lines": [
+        {
+          "text": "đi chiếc",
+          "kind": "lead",
+          "at": 10.0,
+          "_word": "Đi"
+        },
+        {
+          "text": "XE CẢ TỈ",
+          "kind": "key",
+          "at": 10.64,
+          "_word": "xe"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "out": 13.62,
+      "lines": [
+        {
+          "text": "tháng nào cũng",
+          "kind": "lead",
+          "at": 11.82,
+          "_word": "tháng"
+        },
+        {
+          "text": "MẤT NGỦ",
+          "kind": "key",
+          "at": 12.42,
+          "_word": "mất"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "out": 26.01,
+      "lines": [
+        {
+          "text": "thì nhiều đâu",
+          "kind": "lead",
+          "at": 23.72,
+          "_word": "thì"
+        },
+        {
+          "text": "CŨNG HẾT",
+          "kind": "key",
+          "at": 24.72,
+          "_word": "cũng"
+        }
+      ]
+    }
+  ]
+}

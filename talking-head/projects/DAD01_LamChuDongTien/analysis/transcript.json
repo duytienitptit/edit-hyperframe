@@ -1,0 +1,538 @@
+{
+ "language": "vi",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.28,
+   "text": "Con à, nghĩ lại xem, mình đang làm chủ đồng tiền hay vẫn bị đồng tiền làm chủ?",
+   "words": [
+    {
+     "word": "Con",
+     "start": 0.0,
+     "end": 0.32,
+     "prob": 0.971
+    },
+    {
+     "word": "à,",
+     "start": 0.32,
+     "end": 0.5,
+     "prob": 0.967
+    },
+    {
+     "word": "nghĩ",
+     "start": 0.74,
+     "end": 1.04,
+     "prob": 0.997
+    },
+    {
+     "word": "lại",
+     "start": 1.04,
+     "end": 1.24,
+     "prob": 1.0
+    },
+    {
+     "word": "xem,",
+     "start": 1.24,
+     "end": 1.5,
+     "prob": 1.0
+    },
+    {
+     "word": "mình",
+     "start": 1.86,
+     "end": 2.22,
+     "prob": 0.989
+    },
+    {
+     "word": "đang",
+     "start": 2.22,
+     "end": 2.42,
+     "prob": 1.0
+    },
+    {
+     "word": "làm",
+     "start": 2.42,
+     "end": 2.62,
+     "prob": 1.0
+    },
+    {
+     "word": "chủ",
+     "start": 2.62,
+     "end": 2.84,
+     "prob": 0.997
+    },
+    {
+     "word": "đồng",
+     "start": 2.84,
+     "end": 3.02,
+     "prob": 1.0
+    },
+    {
+     "word": "tiền",
+     "start": 3.02,
+     "end": 3.32,
+     "prob": 1.0
+    },
+    {
+     "word": "hay",
+     "start": 3.32,
+     "end": 3.96,
+     "prob": 0.553
+    },
+    {
+     "word": "vẫn",
+     "start": 3.96,
+     "end": 4.18,
+     "prob": 1.0
+    },
+    {
+     "word": "bị",
+     "start": 4.18,
+     "end": 4.36,
+     "prob": 1.0
+    },
+    {
+     "word": "đồng",
+     "start": 4.36,
+     "end": 4.58,
+     "prob": 1.0
+    },
+    {
+     "word": "tiền",
+     "start": 4.58,
+     "end": 4.78,
+     "prob": 1.0
+    },
+    {
+     "word": "làm",
+     "start": 4.78,
+     "end": 4.96,
+     "prob": 1.0
+    },
+    {
+     "word": "chủ?",
+     "start": 4.96,
+     "end": 5.28,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 5.8,
+   "end": 8.92,
+   "text": "Kiếm được nhiều tiền mà không dám nghỉ lấy một ngày.",
+   "words": [
+    {
+     "word": "Kiếm",
+     "start": 5.8,
+     "end": 6.26,
+     "prob": 1.0
+    },
+    {
+     "word": "được",
+     "start": 6.26,
+     "end": 6.36,
+     "prob": 1.0
+    },
+    {
+     "word": "nhiều",
+     "start": 6.36,
+     "end": 6.58,
+     "prob": 1.0
+    },
+    {
+     "word": "tiền",
+     "start": 6.58,
+     "end": 6.94,
+     "prob": 1.0
+    },
+    {
+     "word": "mà",
+     "start": 6.94,
+     "end": 7.64,
+     "prob": 0.987
+    },
+    {
+     "word": "không",
+     "start": 7.64,
+     "end": 7.88,
+     "prob": 1.0
+    },
+    {
+     "word": "dám",
+     "start": 7.88,
+     "end": 8.14,
+     "prob": 1.0
+    },
+    {
+     "word": "nghỉ",
+     "start": 8.14,
+     "end": 8.34,
+     "prob": 0.999
+    },
+    {
+     "word": "lấy",
+     "start": 8.34,
+     "end": 8.52,
+     "prob": 1.0
+    },
+    {
+     "word": "một",
+     "start": 8.52,
+     "end": 8.66,
+     "prob": 0.98
+    },
+    {
+     "word": "ngày.",
+     "start": 8.66,
+     "end": 8.92,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 10.0,
+   "end": 13.8,
+   "text": "Đi chiếc xe cả tỉ mà tháng nào cũng mất ngủ vì lo tiền trả nợ.",
+   "words": [
+    {
+     "word": "Đi",
+     "start": 10.0,
+     "end": 10.46,
+     "prob": 1.0
+    },
+    {
+     "word": "chiếc",
+     "start": 10.46,
+     "end": 10.64,
+     "prob": 0.999
+    },
+    {
+     "word": "xe",
+     "start": 10.64,
+     "end": 10.84,
+     "prob": 1.0
+    },
+    {
+     "word": "cả",
+     "start": 10.84,
+     "end": 11.0,
+     "prob": 0.993
+    },
+    {
+     "word": "tỉ",
+     "start": 11.0,
+     "end": 11.3,
+     "prob": 0.75
+    },
+    {
+     "word": "mà",
+     "start": 11.3,
+     "end": 11.82,
+     "prob": 0.974
+    },
+    {
+     "word": "tháng",
+     "start": 11.82,
+     "end": 12.06,
+     "prob": 1.0
+    },
+    {
+     "word": "nào",
+     "start": 12.06,
+     "end": 12.26,
+     "prob": 1.0
+    },
+    {
+     "word": "cũng",
+     "start": 12.26,
+     "end": 12.42,
+     "prob": 1.0
+    },
+    {
+     "word": "mất",
+     "start": 12.42,
+     "end": 12.58,
+     "prob": 1.0
+    },
+    {
+     "word": "ngủ",
+     "start": 12.58,
+     "end": 12.82,
+     "prob": 1.0
+    },
+    {
+     "word": "vì",
+     "start": 12.82,
+     "end": 13.0,
+     "prob": 1.0
+    },
+    {
+     "word": "lo",
+     "start": 13.0,
+     "end": 13.16,
+     "prob": 1.0
+    },
+    {
+     "word": "tiền",
+     "start": 13.16,
+     "end": 13.4,
+     "prob": 1.0
+    },
+    {
+     "word": "trả",
+     "start": 13.4,
+     "end": 13.58,
+     "prob": 1.0
+    },
+    {
+     "word": "nợ.",
+     "start": 13.58,
+     "end": 13.8,
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 14.18,
+   "end": 19.38,
+   "text": "Muốn tiền làm việc cho mình, con phải hiểu nó được dùng vào đâu, lời từ đâu mà có.",
+   "words": [
+    {
+     "word": "Muốn",
+     "start": 14.18,
+     "end": 14.58,
+     "prob": 0.996
+    },
+    {
+     "word": "tiền",
+     "start": 14.58,
+     "end": 14.82,
+     "prob": 1.0
+    },
+    {
+     "word": "làm",
+     "start": 14.82,
+     "end": 14.98,
+     "prob": 1.0
+    },
+    {
+     "word": "việc",
+     "start": 14.98,
+     "end": 15.14,
+     "prob": 1.0
+    },
+    {
+     "word": "cho",
+     "start": 15.14,
+     "end": 15.3,
+     "prob": 1.0
+    },
+    {
+     "word": "mình,",
+     "start": 15.3,
+     "end": 15.54,
+     "prob": 1.0
+    },
+    {
+     "word": "con",
+     "start": 15.96,
+     "end": 16.32,
+     "prob": 1.0
+    },
+    {
+     "word": "phải",
+     "start": 16.32,
+     "end": 16.48,
+     "prob": 1.0
+    },
+    {
+     "word": "hiểu",
+     "start": 16.48,
+     "end": 16.78,
+     "prob": 1.0
+    },
+    {
+     "word": "nó",
+     "start": 16.78,
+     "end": 17.0,
+     "prob": 1.0
+    },
+    {
+     "word": "được",
+     "start": 17.0,
+     "end": 17.22,
+     "prob": 1.0
+    },
+    {
+     "word": "dùng",
+     "start": 17.22,
+     "end": 17.44,
+     "prob": 1.0
+    },
+    {
+     "word": "vào",
+     "start": 17.44,
+     "end": 17.58,
+     "prob": 1.0
+    },
+    {
+     "word": "đâu,",
+     "start": 17.58,
+     "end": 17.84,
+     "prob": 1.0
+    },
+    {
+     "word": "lời",
+     "start": 18.24,
+     "end": 18.56,
+     "prob": 1.0
+    },
+    {
+     "word": "từ",
+     "start": 18.56,
+     "end": 18.72,
+     "prob": 1.0
+    },
+    {
+     "word": "đâu",
+     "start": 18.72,
+     "end": 18.94,
+     "prob": 1.0
+    },
+    {
+     "word": "mà",
+     "start": 18.94,
+     "end": 19.1,
+     "prob": 1.0
+    },
+    {
+     "word": "có.",
+     "start": 19.1,
+     "end": 19.38,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 20.24,
+   "end": 25.56,
+   "text": "Chứ tiêu tiền chỉ vì thú vui, đam mê của bản thân, thì nhiều đâu cũng hết con ạ.",
+   "words": [
+    {
+     "word": "Chứ",
+     "start": 20.24,
+     "end": 20.6,
+     "prob": 0.999
+    },
+    {
+     "word": "tiêu",
+     "start": 20.6,
+     "end": 20.84,
+     "prob": 1.0
+    },
+    {
+     "word": "tiền",
+     "start": 20.84,
+     "end": 21.08,
+     "prob": 1.0
+    },
+    {
+     "word": "chỉ",
+     "start": 21.08,
+     "end": 21.3,
+     "prob": 1.0
+    },
+    {
+     "word": "vì",
+     "start": 21.3,
+     "end": 21.5,
+     "prob": 1.0
+    },
+    {
+     "word": "thú",
+     "start": 21.5,
+     "end": 21.74,
+     "prob": 1.0
+    },
+    {
+     "word": "vui,",
+     "start": 21.74,
+     "end": 22.08,
+     "prob": 1.0
+    },
+    {
+     "word": "đam",
+     "start": 22.42,
+     "end": 22.62,
+     "prob": 1.0
+    },
+    {
+     "word": "mê",
+     "start": 22.62,
+     "end": 22.82,
+     "prob": 1.0
+    },
+    {
+     "word": "của",
+     "start": 22.82,
+     "end": 22.98,
+     "prob": 1.0
+    },
+    {
+     "word": "bản",
+     "start": 22.98,
+     "end": 23.18,
+     "prob": 1.0
+    },
+    {
+     "word": "thân,",
+     "start": 23.18,
+     "end": 23.42,
+     "prob": 1.0
+    },
+    {
+     "word": "thì",
+     "start": 23.72,
+     "end": 24.26,
+     "prob": 1.0
+    },
+    {
+     "word": "nhiều",
+     "start": 24.26,
+     "end": 24.54,
+     "prob": 1.0
+    },
+    {
+     "word": "đâu",
+     "start": 24.54,
+     "end": 24.72,
+     "prob": 0.917
+    },
+    {
+     "word": "cũng",
+     "start": 24.72,
+     "end": 24.94,
+     "prob": 1.0
+    },
+    {
+     "word": "hết",
+     "start": 24.94,
+     "end": 25.18,
+     "prob": 1.0
+    },
+    {
+     "word": "con",
+     "start": 25.18,
+     "end": 25.38,
+     "prob": 0.907
+    },
+    {
+     "word": "ạ.",
+     "start": 25.38,
+     "end": 25.56,
+     "prob": 0.983
+    }
+   ]
+  }
+ ]
+}

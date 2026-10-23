@@ -1,0 +1,80 @@
+{
+  "_note": "Look + caption parameters for style bw-film-quote (talking-head/styles/bw-film-quote.md). Read by comp/build.py. grading = null: the look is baked with ffmpeg (edit/grade.json → comp/prep_graded.py), HyperFrames data-color-grading washed out renders.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "grading": null,
+  "pushin": {
+    "speaker": 0.04,
+    "broll": 0.06
+  },
+  "caption": {
+    "font": "georgia",
+    "fonts": {
+      "georgia": {
+        "family": "CapGeorgia",
+        "file": "assets/fonts/Georgia-BoldItalic.ttf"
+      },
+      "times": {
+        "family": "CapTimes",
+        "file": "assets/fonts/TimesNewRoman-BoldItalic.ttf"
+      }
+    },
+    "size": 50,
+    "color": "#F2D03B",
+    "stroke": "#1a1405",
+    "stroke_width": 3,
+    "max_width": 0.86,
+    "center_y": 995
+  },
+  "fade_out": 1.5,
+  "safe_zone": {
+    "_note": "User template (1080x1920): red = subject/main content, brackets = face focus box, green = captions, white = highlight text animations; black + right column below 1068 = TikTok UI, keep clear.",
+    "red": [
+      95,
+      335,
+      985,
+      920
+    ],
+    "focus": [
+      385,
+      455,
+      695,
+      795
+    ],
+    "green": [
+      95,
+      925,
+      985,
+      1065
+    ],
+    "white": [
+      93,
+      1068,
+      865,
+      1512
+    ]
+  },
+  "highlight": {
+    "lead": {
+      "family": "CapGeorgia",
+      "size": 54,
+      "color": "#FFF4DC"
+    },
+    "key": {
+      "family": "HiAvenir",
+      "file": "assets/fonts/AvenirNextCondensed-DemiBold.ttf",
+      "size": 128,
+      "gold": [
+        "#FFE9A3",
+        "#F2C94C",
+        "#C98E1E"
+      ],
+      "letter_spacing": 0.01
+    },
+    "left": 110,
+    "reveal": 0.55,
+    "exit": 0.3
+  }
+}

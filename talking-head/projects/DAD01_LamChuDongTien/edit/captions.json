@@ -1,0 +1,515 @@
+[
+ {
+  "text": "Con à, nghĩ lại xem",
+  "startMs": 0,
+  "endMs": 1500,
+  "words": [
+   {
+    "text": "Con",
+    "startMs": 0,
+    "endMs": 320
+   },
+   {
+    "text": "à,",
+    "startMs": 320,
+    "endMs": 500
+   },
+   {
+    "text": "nghĩ",
+    "startMs": 740,
+    "endMs": 1040
+   },
+   {
+    "text": "lại",
+    "startMs": 1040,
+    "endMs": 1240
+   },
+   {
+    "text": "xem",
+    "startMs": 1240,
+    "endMs": 1500
+   }
+  ]
+ },
+ {
+  "text": "Mình đang làm chủ đồng tiền",
+  "startMs": 1860,
+  "endMs": 3320,
+  "words": [
+   {
+    "text": "Mình",
+    "startMs": 1860,
+    "endMs": 2220
+   },
+   {
+    "text": "đang",
+    "startMs": 2220,
+    "endMs": 2420
+   },
+   {
+    "text": "làm",
+    "startMs": 2420,
+    "endMs": 2620
+   },
+   {
+    "text": "chủ",
+    "startMs": 2620,
+    "endMs": 2840
+   },
+   {
+    "text": "đồng",
+    "startMs": 2840,
+    "endMs": 3020
+   },
+   {
+    "text": "tiền",
+    "startMs": 3020,
+    "endMs": 3320
+   }
+  ]
+ },
+ {
+  "text": "Hay vẫn bị đồng tiền làm chủ?",
+  "startMs": 3320,
+  "endMs": 5280,
+  "words": [
+   {
+    "text": "Hay",
+    "startMs": 3320,
+    "endMs": 3960
+   },
+   {
+    "text": "vẫn",
+    "startMs": 3960,
+    "endMs": 4180
+   },
+   {
+    "text": "bị",
+    "startMs": 4180,
+    "endMs": 4360
+   },
+   {
+    "text": "đồng",
+    "startMs": 4360,
+    "endMs": 4580
+   },
+   {
+    "text": "tiền",
+    "startMs": 4580,
+    "endMs": 4780
+   },
+   {
+    "text": "làm",
+    "startMs": 4780,
+    "endMs": 4960
+   },
+   {
+    "text": "chủ?",
+    "startMs": 4960,
+    "endMs": 5280
+   }
+  ]
+ },
+ {
+  "text": "Kiếm được nhiều tiền",
+  "startMs": 5800,
+  "endMs": 6940,
+  "words": [
+   {
+    "text": "Kiếm",
+    "startMs": 5800,
+    "endMs": 6260
+   },
+   {
+    "text": "được",
+    "startMs": 6260,
+    "endMs": 6360
+   },
+   {
+    "text": "nhiều",
+    "startMs": 6360,
+    "endMs": 6580
+   },
+   {
+    "text": "tiền",
+    "startMs": 6580,
+    "endMs": 6940
+   }
+  ]
+ },
+ {
+  "text": "Mà không dám nghỉ lấy một ngày",
+  "startMs": 6940,
+  "endMs": 8920,
+  "words": [
+   {
+    "text": "Mà",
+    "startMs": 6940,
+    "endMs": 7640
+   },
+   {
+    "text": "không",
+    "startMs": 7640,
+    "endMs": 7880
+   },
+   {
+    "text": "dám",
+    "startMs": 7880,
+    "endMs": 8140
+   },
+   {
+    "text": "nghỉ",
+    "startMs": 8140,
+    "endMs": 8340
+   },
+   {
+    "text": "lấy",
+    "startMs": 8340,
+    "endMs": 8520
+   },
+   {
+    "text": "một",
+    "startMs": 8520,
+    "endMs": 8660
+   },
+   {
+    "text": "ngày",
+    "startMs": 8660,
+    "endMs": 8920
+   }
+  ]
+ },
+ {
+  "text": "Đi chiếc xe cả tỉ",
+  "startMs": 10000,
+  "endMs": 11300,
+  "words": [
+   {
+    "text": "Đi",
+    "startMs": 10000,
+    "endMs": 10460
+   },
+   {
+    "text": "chiếc",
+    "startMs": 10460,
+    "endMs": 10640
+   },
+   {
+    "text": "xe",
+    "startMs": 10640,
+    "endMs": 10840
+   },
+   {
+    "text": "cả",
+    "startMs": 10840,
+    "endMs": 11000
+   },
+   {
+    "text": "tỉ",
+    "startMs": 11000,
+    "endMs": 11300
+   }
+  ]
+ },
+ {
+  "text": "Mà tháng nào cũng mất ngủ",
+  "startMs": 11300,
+  "endMs": 12820,
+  "words": [
+   {
+    "text": "Mà",
+    "startMs": 11300,
+    "endMs": 11820
+   },
+   {
+    "text": "tháng",
+    "startMs": 11820,
+    "endMs": 12060
+   },
+   {
+    "text": "nào",
+    "startMs": 12060,
+    "endMs": 12260
+   },
+   {
+    "text": "cũng",
+    "startMs": 12260,
+    "endMs": 12420
+   },
+   {
+    "text": "mất",
+    "startMs": 12420,
+    "endMs": 12580
+   },
+   {
+    "text": "ngủ",
+    "startMs": 12580,
+    "endMs": 12820
+   }
+  ]
+ },
+ {
+  "text": "Vì lo tiền trả nợ",
+  "startMs": 12820,
+  "endMs": 13800,
+  "words": [
+   {
+    "text": "Vì",
+    "startMs": 12820,
+    "endMs": 13000
+   },
+   {
+    "text": "lo",
+    "startMs": 13000,
+    "endMs": 13160
+   },
+   {
+    "text": "tiền",
+    "startMs": 13160,
+    "endMs": 13400
+   },
+   {
+    "text": "trả",
+    "startMs": 13400,
+    "endMs": 13580
+   },
+   {
+    "text": "nợ",
+    "startMs": 13580,
+    "endMs": 13800
+   }
+  ]
+ },
+ {
+  "text": "Muốn tiền làm việc cho mình",
+  "startMs": 14180,
+  "endMs": 15540,
+  "words": [
+   {
+    "text": "Muốn",
+    "startMs": 14180,
+    "endMs": 14580
+   },
+   {
+    "text": "tiền",
+    "startMs": 14580,
+    "endMs": 14820
+   },
+   {
+    "text": "làm",
+    "startMs": 14820,
+    "endMs": 14980
+   },
+   {
+    "text": "việc",
+    "startMs": 14980,
+    "endMs": 15140
+   },
+   {
+    "text": "cho",
+    "startMs": 15140,
+    "endMs": 15300
+   },
+   {
+    "text": "mình",
+    "startMs": 15300,
+    "endMs": 15540
+   }
+  ]
+ },
+ {
+  "text": "Con phải hiểu nó được dùng vào đâu",
+  "startMs": 15960,
+  "endMs": 17840,
+  "words": [
+   {
+    "text": "Con",
+    "startMs": 15960,
+    "endMs": 16320
+   },
+   {
+    "text": "phải",
+    "startMs": 16320,
+    "endMs": 16480
+   },
+   {
+    "text": "hiểu",
+    "startMs": 16480,
+    "endMs": 16780
+   },
+   {
+    "text": "nó",
+    "startMs": 16780,
+    "endMs": 17000
+   },
+   {
+    "text": "được",
+    "startMs": 17000,
+    "endMs": 17220
+   },
+   {
+    "text": "dùng",
+    "startMs": 17220,
+    "endMs": 17440
+   },
+   {
+    "text": "vào",
+    "startMs": 17440,
+    "endMs": 17580
+   },
+   {
+    "text": "đâu",
+    "startMs": 17580,
+    "endMs": 17840
+   }
+  ]
+ },
+ {
+  "text": "Lời từ đâu mà có",
+  "startMs": 18240,
+  "endMs": 19380,
+  "words": [
+   {
+    "text": "Lời",
+    "startMs": 18240,
+    "endMs": 18560
+   },
+   {
+    "text": "từ",
+    "startMs": 18560,
+    "endMs": 18720
+   },
+   {
+    "text": "đâu",
+    "startMs": 18720,
+    "endMs": 18940
+   },
+   {
+    "text": "mà",
+    "startMs": 18940,
+    "endMs": 19100
+   },
+   {
+    "text": "có",
+    "startMs": 19100,
+    "endMs": 19380
+   }
+  ]
+ },
+ {
+  "text": "Chứ tiêu tiền chỉ vì thú vui",
+  "startMs": 20240,
+  "endMs": 22080,
+  "words": [
+   {
+    "text": "Chứ",
+    "startMs": 20240,
+    "endMs": 20600
+   },
+   {
+    "text": "tiêu",
+    "startMs": 20600,
+    "endMs": 20840
+   },
+   {
+    "text": "tiền",
+    "startMs": 20840,
+    "endMs": 21080
+   },
+   {
+    "text": "chỉ",
+    "startMs": 21080,
+    "endMs": 21300
+   },
+   {
+    "text": "vì",
+    "startMs": 21300,
+    "endMs": 21500
+   },
+   {
+    "text": "thú",
+    "startMs": 21500,
+    "endMs": 21740
+   },
+   {
+    "text": "vui",
+    "startMs": 21740,
+    "endMs": 22080
+   }
+  ]
+ },
+ {
+  "text": "Đam mê của bản thân",
+  "startMs": 22420,
+  "endMs": 23420,
+  "words": [
+   {
+    "text": "Đam",
+    "startMs": 22420,
+    "endMs": 22620
+   },
+   {
+    "text": "mê",
+    "startMs": 22620,
+    "endMs": 22820
+   },
+   {
+    "text": "của",
+    "startMs": 22820,
+    "endMs": 22980
+   },
+   {
+    "text": "bản",
+    "startMs": 22980,
+    "endMs": 23180
+   },
+   {
+    "text": "thân",
+    "startMs": 23180,
+    "endMs": 23420
+   }
+  ]
+ },
+ {
+  "text": "Thì nhiều đâu cũng hết con ạ",
+  "startMs": 23720,
+  "endMs": 25560,
+  "words": [
+   {
+    "text": "Thì",
+    "startMs": 23720,
+    "endMs": 24260
+   },
+   {
+    "text": "nhiều",
+    "startMs": 24260,
+    "endMs": 24540
+   },
+   {
+    "text": "đâu",
+    "startMs": 24540,
+    "endMs": 24720
+   },
+   {
+    "text": "cũng",
+    "startMs": 24720,
+    "endMs": 24940
+   },
+   {
+    "text": "hết",
+    "startMs": 24940,
+    "endMs": 25180
+   },
+   {
+    "text": "con",
+    "startMs": 25180,
+    "endMs": 25380
+   },
+   {
+    "text": "ạ",
+    "startMs": 25380,
+    "endMs": 25560
+   }
+  ]
+ }
+]

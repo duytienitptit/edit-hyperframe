@@ -1,0 +1,33 @@
+{
+  "_note": "Look baked with ffmpeg into comp/assets/graded/ by comp/prep_graded.py (replaces HyperFrames data-color-grading, which lifted blacks and dropped saturation in renders: source sat 149 -> 128 in a 2 s render, 105 in the full demo). User 2026-10-21: colors too pale, make them richer and more eye-catching. pre = per-clip filters run before the shared look (key = file basename); grain = light temporal film grain (ffmpeg noise, fixed seed). Look = tone C 'Rực rỡ tươi sáng' (user pick 2026-10-21, from grade_options.json).",
+  "look": "colortemperature=temperature=9500:mix=0.8,vibrance=intensity=0.32,eq=contrast=1.06:saturation=1.15:brightness=0.04:gamma=1.08,curves=all='0/0 0.25/0.25 0.5/0.54 0.8/0.85 1/1'",
+  "grain": "noise=alls=4:allf=t",
+  "pre": {
+    "pexels_36632263.mp4": "colorspace=iall=bt2020:itrc=bt2020-10:all=bt709:format=yuv420p",
+    "pexels_6944076.mp4": "eq=gamma=1.35:brightness=0.04"
+  },
+  "encode": [
+    "-c:v",
+    "libx264",
+    "-crf",
+    "15",
+    "-preset",
+    "medium",
+    "-g",
+    "30",
+    "-keyint_min",
+    "30",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-movflags",
+    "+faststart"
+  ]
+}

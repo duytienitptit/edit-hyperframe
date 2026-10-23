@@ -1,0 +1,239 @@
+{
+ "_note": "Shared b-roll library. One entry per clip; file is relative to library/broll/. used_in = projects that placed it (slot + in/out). Add entries when downloading new clips.",
+ "clips": [
+  {
+   "file": "dem-tien/pexels_6266251.mp4",
+   "theme": "dem-tien",
+   "idea": "hands counting cash",
+   "title": "A Person Counting Dollar Bills",
+   "source": "pexels",
+   "source_id": 6266251,
+   "page": "https://www.pexels.com/video/6266251/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 11.4,
+   "width": 720,
+   "height": 1280,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B1",
+     "in": 2.0,
+     "out": 4.66
+    }
+   ]
+  },
+  {
+   "file": "dem-tien/pexels_6700265.mp4",
+   "theme": "dem-tien",
+   "idea": "hands counting cash",
+   "title": "A Person Counting Cash",
+   "source": "pexels",
+   "source_id": 6700265,
+   "page": "https://www.pexels.com/video/6700265/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 16.56,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": []
+  },
+  {
+   "file": "lam-viec-kiet-suc/pexels_6614775.mp4",
+   "theme": "lam-viec-kiet-suc",
+   "idea": "overwork, exhausted at desk",
+   "title": "A Man Fell Asleep While Working",
+   "source": "pexels",
+   "source_id": 6614775,
+   "page": "https://www.pexels.com/video/6614775/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 25.44,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B2",
+     "in": 4.0,
+     "out": 7.06
+    }
+   ]
+  },
+  {
+   "file": "lam-viec-kiet-suc/pexels_7660187.mp4",
+   "theme": "lam-viec-kiet-suc",
+   "idea": "overwork, exhausted at desk",
+   "title": "Tired Man Sitting on Chair",
+   "source": "pexels",
+   "source_id": 7660187,
+   "page": "https://www.pexels.com/video/7660187/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 10.32,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": []
+  },
+  {
+   "file": "xe-sang/pexels_32391975.mp4",
+   "theme": "xe-sang",
+   "idea": "luxury car",
+   "title": "Luxury Car Driving Along Scenic Coastline Road",
+   "source": "pexels",
+   "source_id": 32391975,
+   "page": "https://www.pexels.com/video/32391975/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 33.2,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": []
+  },
+  {
+   "file": "xe-sang/pexels_36632263.mp4",
+   "theme": "xe-sang",
+   "idea": "luxury car",
+   "title": "Driving POV in Modern Car on Sunny Day",
+   "source": "pexels",
+   "source_id": 36632263,
+   "page": "https://www.pexels.com/video/36632263/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 23.42,
+   "width": 1080,
+   "height": 1920,
+   "fps": 60.0,
+   "has_audio": false,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B3a",
+     "in": 3.0,
+     "out": 4.82
+    }
+   ]
+  },
+  {
+   "file": "mat-ngu/pexels_6944076.mp4",
+   "theme": "mat-ngu",
+   "idea": "sleepless at night, worry",
+   "title": "A Nocturnal Man",
+   "source": "pexels",
+   "source_id": 6944076,
+   "page": "https://www.pexels.com/video/6944076/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 56.24,
+   "width": 1080,
+   "height": 2048,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B3b",
+     "in": 10.0,
+     "out": 12.18
+    }
+   ]
+  },
+  {
+   "file": "mat-ngu/pexels_6943536.mp4",
+   "theme": "mat-ngu",
+   "idea": "sleepless at night, worry",
+   "title": "A Man Using a Mobile Phone on Bed",
+   "source": "pexels",
+   "source_id": 6943536,
+   "page": "https://www.pexels.com/video/6943536/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 24.96,
+   "width": 1080,
+   "height": 2048,
+   "fps": 25.0,
+   "has_audio": false,
+   "used_in": []
+  },
+  {
+   "file": "dau-tu/pexels_7247871.mp4",
+   "theme": "dau-tu",
+   "idea": "investing, finance analysis",
+   "title": "A Person Tracking the Stock Exchange on His Phone",
+   "source": "pexels",
+   "source_id": 7247871,
+   "page": "https://www.pexels.com/video/7247871/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 14.68,
+   "width": 720,
+   "height": 1280,
+   "fps": 29.97,
+   "has_audio": true,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B4",
+     "in": 2.0,
+     "out": 4.0
+    }
+   ]
+  },
+  {
+   "file": "dau-tu/pexels_7247861.mp4",
+   "theme": "dau-tu",
+   "idea": "investing, finance analysis",
+   "title": "Calculating and Taking Notes",
+   "source": "pexels",
+   "source_id": 7247861,
+   "page": "https://www.pexels.com/video/7247861/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 17.49,
+   "width": 720,
+   "height": 1280,
+   "fps": 29.97,
+   "has_audio": true,
+   "used_in": []
+  },
+  {
+   "file": "mua-sam/pexels_5836561.mp4",
+   "theme": "mua-sam",
+   "idea": "shopping, spending",
+   "title": "A Woman Carrying Shopping Bags",
+   "source": "pexels",
+   "source_id": 5836561,
+   "page": "https://www.pexels.com/video/5836561/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 18.02,
+   "width": 720,
+   "height": 1280,
+   "fps": 29.97,
+   "has_audio": false,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B5",
+     "in": 3.0,
+     "out": 5.18
+    }
+   ]
+  },
+  {
+   "file": "mua-sam/pexels_6565836.mp4",
+   "theme": "mua-sam",
+   "idea": "shopping, spending",
+   "title": "A Person Holding Paper Bags",
+   "source": "pexels",
+   "source_id": 6565836,
+   "page": "https://www.pexels.com/video/6565836/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 10.01,
+   "width": 1080,
+   "height": 1920,
+   "fps": 23.976,
+   "has_audio": false,
+   "used_in": []
+  }
+ ]
+}

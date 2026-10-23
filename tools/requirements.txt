@@ -1,0 +1,9 @@
+# Python tools for EditHyperframe. Apple Silicon Mac only (mlx-whisper uses MLX).
+# Install: python3.12 -m venv tools/.venv && tools/.venv/bin/pip install -r tools/requirements.txt
+mlx-whisper==0.4.3
+audio-separator==0.47.1
+numpy
+scipy
+soundfile
+fonttools
+matplotlib

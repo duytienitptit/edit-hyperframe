@@ -1,0 +1,20 @@
+{
+  "_note": "Three tone options for the user to pick (2026-10-21, after demo v2). The chosen look replaces grade.json 'look'; per-clip 'pre' fixes in grade.json stay. Sheet: review/tone_options_v1.jpg. ffmpeg colortemperature: higher temperature = cooler (source R/B 2.09; 9000 → 1.70 at mix 1).",
+  "options": {
+    "A": {
+      "name": "Ấm vàng điện ảnh",
+      "_desc": "demo v2 look: warm library glow, rich skin, deep shadows",
+      "look": "vibrance=intensity=0.22,eq=contrast=1.10:saturation=1.12:gamma=0.98,curves=all='0/0 0.25/0.21 0.5/0.5 0.78/0.82 1/1'"
+    },
+    "B": {
+      "name": "Teal & Orange",
+      "_desc": "blockbuster split: cool teal shadows, warm orange skin and highlights, strong contrast",
+      "look": "colorbalance=rs=-0.14:gs=0.02:bs=0.20:rm=0.03:gm=0.0:bm=-0.05:rh=0.08:gh=0.02:bh=-0.10,vibrance=intensity=0.18,eq=contrast=1.16:saturation=1.06:gamma=0.97,curves=all='0/0.02 0.25/0.2 0.5/0.5 0.8/0.84 1/1'"
+    },
+    "C": {
+      "name": "Rực rỡ tươi sáng",
+      "_desc": "clean bright pop: neutral white balance (pulls the orange cast out), brighter, vivid but natural skin",
+      "look": "colortemperature=temperature=9500:mix=0.8,vibrance=intensity=0.32,eq=contrast=1.06:saturation=1.15:brightness=0.04:gamma=1.08,curves=all='0/0 0.25/0.25 0.5/0.54 0.8/0.85 1/1'"
+    }
+  }
+}
