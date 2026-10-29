@@ -1,0 +1,78 @@
+{
+ "language": "vi",
+ "segments": [
+  {
+   "start": 0.86,
+   "end": 3.94,
+   "text": "Một người còn không nên tin khi có ba điều sau.",
+   "words": [
+    {
+     "word": "Một",
+     "start": 0.86,
+     "end": 1.3,
+     "prob": 0.992
+    },
+    {
+     "word": "người",
+     "start": 1.3,
+     "end": 1.54,
+     "prob": 0.999
+    },
+    {
+     "word": "còn",
+     "start": 1.54,
+     "end": 1.94,
+     "prob": 0.516
+    },
+    {
+     "word": "không",
+     "start": 1.94,
+     "end": 2.12,
+     "prob": 1.0
+    },
+    {
+     "word": "nên",
+     "start": 2.12,
+     "end": 2.26,
+     "prob": 1.0
+    },
+    {
+     "word": "tin",
+     "start": 2.26,
+     "end": 2.54,
+     "prob": 1.0
+    },
+    {
+     "word": "khi",
+     "start": 2.54,
+     "end": 3.12,
+     "prob": 0.966
+    },
+    {
+     "word": "có",
+     "start": 3.12,
+     "end": 3.32,
+     "prob": 1.0
+    },
+    {
+     "word": "ba",
+     "start": 3.32,
+     "end": 3.48,
+     "prob": 0.928
+    },
+    {
+     "word": "điều",
+     "start": 3.48,
+     "end": 3.68,
+     "prob": 0.998
+    },
+    {
+     "word": "sau.",
+     "start": 3.68,
+     "end": 3.94,
+     "prob": 0.994
+    }
+   ]
+  }
+ ]
+}

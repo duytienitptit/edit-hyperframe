@@ -10,6 +10,7 @@ tools/models/separator/
 library/**
 !library/**/
 !library/**/index.json
+!library/**/searches.json
 
 # Test projects outside the shared channel work
 /projects/

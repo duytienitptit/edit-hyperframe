@@ -1,189 +1,77 @@
 {
- "_note": "Shared b-roll library. One entry per clip; file is relative to library/broll/. used_in = projects that placed it (slot + in/out). Add entries when downloading new clips.",
+ "_note": "Shared b-roll library for every talking-head style. One entry per clip; file is relative to library/broll/ (folder = theme). Technical fields are written by tools/broll_index.py scan; descriptive fields by hand (vocabulary in _vocab). Search before the web: python3 tools/broll_index.py search <words>. used_in = projects that placed it (style, slot, in/out).",
+ "_vocab": {
+  "mood": [
+   "calm",
+   "warm",
+   "hopeful",
+   "sad",
+   "lonely",
+   "tense",
+   "angry"
+  ],
+  "shot": [
+   "detail",
+   "close",
+   "medium",
+   "wide"
+  ],
+  "subject": [
+   "hands",
+   "face",
+   "silhouette",
+   "back",
+   "object",
+   "scene",
+   "crowd",
+   "pov"
+  ],
+  "people": [
+   "none",
+   "hands-only",
+   "asian",
+   "western",
+   "mixed"
+  ],
+  "motion": [
+   "static",
+   "slow",
+   "fast"
+  ],
+  "fits_styles": [
+   "bw-film-quote",
+   "podcast-card"
+  ]
+ },
  "clips": [
-  {
-   "file": "dem-tien/pexels_6266251.mp4",
-   "theme": "dem-tien",
-   "idea": "hands counting cash",
-   "title": "A Person Counting Dollar Bills",
-   "source": "pexels",
-   "source_id": 6266251,
-   "page": "https://www.pexels.com/video/6266251/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 11.4,
-   "width": 720,
-   "height": 1280,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": [
-    {
-     "project": "DAD01_LamChuDongTien",
-     "slot": "B1",
-     "in": 2.0,
-     "out": 4.66
-    }
-   ]
-  },
-  {
-   "file": "dem-tien/pexels_6700265.mp4",
-   "theme": "dem-tien",
-   "idea": "hands counting cash",
-   "title": "A Person Counting Cash",
-   "source": "pexels",
-   "source_id": 6700265,
-   "page": "https://www.pexels.com/video/6700265/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 16.56,
-   "width": 1080,
-   "height": 1920,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": []
-  },
-  {
-   "file": "lam-viec-kiet-suc/pexels_6614775.mp4",
-   "theme": "lam-viec-kiet-suc",
-   "idea": "overwork, exhausted at desk",
-   "title": "A Man Fell Asleep While Working",
-   "source": "pexels",
-   "source_id": 6614775,
-   "page": "https://www.pexels.com/video/6614775/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 25.44,
-   "width": 1080,
-   "height": 1920,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": [
-    {
-     "project": "DAD01_LamChuDongTien",
-     "slot": "B2",
-     "in": 4.0,
-     "out": 7.06
-    }
-   ]
-  },
-  {
-   "file": "lam-viec-kiet-suc/pexels_7660187.mp4",
-   "theme": "lam-viec-kiet-suc",
-   "idea": "overwork, exhausted at desk",
-   "title": "Tired Man Sitting on Chair",
-   "source": "pexels",
-   "source_id": 7660187,
-   "page": "https://www.pexels.com/video/7660187/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 10.32,
-   "width": 1080,
-   "height": 1920,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": []
-  },
-  {
-   "file": "xe-sang/pexels_32391975.mp4",
-   "theme": "xe-sang",
-   "idea": "luxury car",
-   "title": "Luxury Car Driving Along Scenic Coastline Road",
-   "source": "pexels",
-   "source_id": 32391975,
-   "page": "https://www.pexels.com/video/32391975/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 33.2,
-   "width": 1080,
-   "height": 1920,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": []
-  },
-  {
-   "file": "xe-sang/pexels_36632263.mp4",
-   "theme": "xe-sang",
-   "idea": "luxury car",
-   "title": "Driving POV in Modern Car on Sunny Day",
-   "source": "pexels",
-   "source_id": 36632263,
-   "page": "https://www.pexels.com/video/36632263/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 23.42,
-   "width": 1080,
-   "height": 1920,
-   "fps": 60.0,
-   "has_audio": false,
-   "used_in": [
-    {
-     "project": "DAD01_LamChuDongTien",
-     "slot": "B3a",
-     "in": 3.0,
-     "out": 4.82
-    }
-   ]
-  },
-  {
-   "file": "mat-ngu/pexels_6944076.mp4",
-   "theme": "mat-ngu",
-   "idea": "sleepless at night, worry",
-   "title": "A Nocturnal Man",
-   "source": "pexels",
-   "source_id": 6944076,
-   "page": "https://www.pexels.com/video/6944076/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 56.24,
-   "width": 1080,
-   "height": 2048,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": [
-    {
-     "project": "DAD01_LamChuDongTien",
-     "slot": "B3b",
-     "in": 10.0,
-     "out": 12.18
-    }
-   ]
-  },
-  {
-   "file": "mat-ngu/pexels_6943536.mp4",
-   "theme": "mat-ngu",
-   "idea": "sleepless at night, worry",
-   "title": "A Man Using a Mobile Phone on Bed",
-   "source": "pexels",
-   "source_id": 6943536,
-   "page": "https://www.pexels.com/video/6943536/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 24.96,
-   "width": 1080,
-   "height": 2048,
-   "fps": 25.0,
-   "has_audio": false,
-   "used_in": []
-  },
-  {
-   "file": "dau-tu/pexels_7247871.mp4",
-   "theme": "dau-tu",
-   "idea": "investing, finance analysis",
-   "title": "A Person Tracking the Stock Exchange on His Phone",
-   "source": "pexels",
-   "source_id": 7247871,
-   "page": "https://www.pexels.com/video/7247871/",
-   "license": "Pexels (free, no attribution)",
-   "duration": 14.68,
-   "width": 720,
-   "height": 1280,
-   "fps": 29.97,
-   "has_audio": true,
-   "used_in": [
-    {
-     "project": "DAD01_LamChuDongTien",
-     "slot": "B4",
-     "in": 2.0,
-     "out": 4.0
-    }
-   ]
-  },
   {
    "file": "dau-tu/pexels_7247861.mp4",
    "theme": "dau-tu",
    "idea": "investing, finance analysis",
+   "tags": [
+    "tính toán",
+    "ghi chép",
+    "máy tính bỏ túi",
+    "giấy tờ",
+    "tài chính",
+    "calculator",
+    "notes",
+    "paperwork",
+    "budget"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "shot": "detail",
+   "subject": "hands",
+   "people": "hands-only",
+   "motion": "static",
+   "good_ranges": [],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "top-down desk, glasses on papers",
    "title": "Calculating and Taking Notes",
    "source": "pexels",
    "source_id": 7247861,
@@ -193,13 +81,406 @@
    "width": 720,
    "height": 1280,
    "fps": 29.97,
+   "orientation": "portrait",
    "has_audio": true,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 5.1,
    "used_in": []
+  },
+  {
+   "file": "dau-tu/pexels_7247871.mp4",
+   "theme": "dau-tu",
+   "idea": "investing, finance analysis",
+   "tags": [
+    "điện thoại",
+    "chứng khoán",
+    "đầu tư",
+    "biểu đồ",
+    "phone",
+    "stock chart",
+    "investing",
+    "finance"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "shot": "detail",
+   "subject": "hands",
+   "people": "hands-only",
+   "motion": "static",
+   "good_ranges": [
+    [
+     2.0,
+     4.0,
+     "used in DAD01_LamChuDongTien B4"
+    ]
+   ],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "top-down, hands on phone over papers",
+   "title": "A Person Tracking the Stock Exchange on His Phone",
+   "source": "pexels",
+   "source_id": 7247871,
+   "page": "https://www.pexels.com/video/7247871/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 14.68,
+   "width": 720,
+   "height": 1280,
+   "fps": 29.97,
+   "orientation": "portrait",
+   "has_audio": true,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 3.7,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B4",
+     "in": 2.0,
+     "out": 4.0,
+     "style": "bw-film-quote"
+    }
+   ]
+  },
+  {
+   "file": "dem-tien/pexels_6266251.mp4",
+   "theme": "dem-tien",
+   "idea": "hands counting cash",
+   "tags": [
+    "đếm tiền",
+    "tiền mặt",
+    "đô la",
+    "giàu",
+    "counting cash",
+    "money",
+    "dollars"
+   ],
+   "mood": [
+    "warm"
+   ],
+   "shot": "detail",
+   "subject": "hands",
+   "people": "hands-only",
+   "motion": "static",
+   "good_ranges": [
+    [
+     2.0,
+     4.66,
+     "used in DAD01_LamChuDongTien B1"
+    ]
+   ],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "close hands with rings, cool teal tone",
+   "title": "A Person Counting Dollar Bills",
+   "source": "pexels",
+   "source_id": 6266251,
+   "page": "https://www.pexels.com/video/6266251/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 11.4,
+   "width": 720,
+   "height": 1280,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 4.1,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B1",
+     "in": 2.0,
+     "out": 4.66,
+     "style": "bw-film-quote"
+    }
+   ]
+  },
+  {
+   "file": "dem-tien/pexels_6700265.mp4",
+   "theme": "dem-tien",
+   "idea": "hands counting cash",
+   "tags": [
+    "đếm tiền",
+    "tiền mặt",
+    "đô la",
+    "counting cash",
+    "money",
+    "window light"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "shot": "detail",
+   "subject": "hands",
+   "people": "hands-only",
+   "motion": "static",
+   "good_ranges": [],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "dark moody, backlit window",
+   "title": "A Person Counting Cash",
+   "source": "pexels",
+   "source_id": 6700265,
+   "page": "https://www.pexels.com/video/6700265/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 16.56,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 5.9,
+   "used_in": []
+  },
+  {
+   "file": "lam-viec-kiet-suc/pexels_6614775.mp4",
+   "theme": "lam-viec-kiet-suc",
+   "idea": "overwork, exhausted at desk",
+   "tags": [
+    "làm việc",
+    "kiệt sức",
+    "ngủ gục",
+    "đêm",
+    "văn phòng",
+    "overwork",
+    "asleep at desk",
+    "exhausted",
+    "night"
+   ],
+   "mood": [
+    "tense",
+    "lonely"
+   ],
+   "shot": "wide",
+   "subject": "scene",
+   "people": "western",
+   "motion": "static",
+   "good_ranges": [
+    [
+     4.0,
+     7.06,
+     "used in DAD01_LamChuDongTien B2"
+    ]
+   ],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "man alone at desk under lamp",
+   "title": "A Man Fell Asleep While Working",
+   "source": "pexels",
+   "source_id": 6614775,
+   "page": "https://www.pexels.com/video/6614775/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 25.44,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 6.5,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B2",
+     "in": 4.0,
+     "out": 7.06,
+     "style": "bw-film-quote"
+    }
+   ]
+  },
+  {
+   "file": "lam-viec-kiet-suc/pexels_7660187.mp4",
+   "theme": "lam-viec-kiet-suc",
+   "idea": "overwork, exhausted at desk",
+   "tags": [
+    "áp lực",
+    "căng thẳng",
+    "ôm đầu",
+    "thất bại",
+    "laptop",
+    "stress",
+    "head in hands",
+    "pressure",
+    "failure"
+   ],
+   "mood": [
+    "tense",
+    "sad"
+   ],
+   "shot": "medium",
+   "subject": "face",
+   "people": "western",
+   "motion": "static",
+   "good_ranges": [],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "man at laptop, hands over face",
+   "title": "Tired Man Sitting on Chair",
+   "source": "pexels",
+   "source_id": 7660187,
+   "page": "https://www.pexels.com/video/7660187/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 10.32,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 4.3,
+   "used_in": []
+  },
+  {
+   "file": "mat-ngu/pexels_6943536.mp4",
+   "theme": "mat-ngu",
+   "idea": "sleepless at night, worry",
+   "tags": [
+    "mất ngủ",
+    "điện thoại",
+    "giường",
+    "đêm",
+    "lo lắng",
+    "sleepless",
+    "phone in bed",
+    "night",
+    "worry"
+   ],
+   "mood": [
+    "lonely",
+    "tense"
+   ],
+   "shot": "wide",
+   "subject": "scene",
+   "people": "western",
+   "motion": "static",
+   "good_ranges": [],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "dark warm bedroom, phone glow",
+   "title": "A Man Using a Mobile Phone on Bed",
+   "source": "pexels",
+   "source_id": 6943536,
+   "page": "https://www.pexels.com/video/6943536/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 24.96,
+   "width": 1080,
+   "height": 2048,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 9.0,
+   "used_in": []
+  },
+  {
+   "file": "mat-ngu/pexels_6944076.mp4",
+   "theme": "mat-ngu",
+   "idea": "sleepless at night, worry",
+   "tags": [
+    "mất ngủ",
+    "lo lắng",
+    "ngồi bên giường",
+    "đêm",
+    "sleepless",
+    "worry",
+    "sitting on bed",
+    "night"
+   ],
+   "mood": [
+    "lonely",
+    "sad"
+   ],
+   "shot": "wide",
+   "subject": "scene",
+   "people": "western",
+   "motion": "static",
+   "good_ranges": [
+    [
+     10.0,
+     12.18,
+     "used in DAD01_LamChuDongTien B3b"
+    ]
+   ],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "man sits on bed edge, lies back; dark",
+   "title": "A Nocturnal Man",
+   "source": "pexels",
+   "source_id": 6944076,
+   "page": "https://www.pexels.com/video/6944076/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 56.24,
+   "width": 1080,
+   "height": 2048,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 24.8,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B3b",
+     "in": 10.0,
+     "out": 12.18,
+     "style": "bw-film-quote"
+    }
+   ]
   },
   {
    "file": "mua-sam/pexels_5836561.mp4",
    "theme": "mua-sam",
    "idea": "shopping, spending",
+   "tags": [
+    "mua sắm",
+    "túi đồ",
+    "tiêu tiền",
+    "hàng hiệu",
+    "shopping bags",
+    "spending",
+    "luxury"
+   ],
+   "mood": [
+    "warm"
+   ],
+   "shot": "medium",
+   "subject": "face",
+   "people": "asian",
+   "motion": "static",
+   "good_ranges": [
+    [
+     3.0,
+     5.18,
+     "used in DAD01_LamChuDongTien B5"
+    ]
+   ],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "woman with sunglasses posing, white studio background",
    "title": "A Woman Carrying Shopping Bags",
    "source": "pexels",
    "source_id": 5836561,
@@ -209,13 +490,18 @@
    "width": 720,
    "height": 1280,
    "fps": 29.97,
+   "orientation": "portrait",
    "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 4.3,
    "used_in": [
     {
      "project": "DAD01_LamChuDongTien",
      "slot": "B5",
      "in": 3.0,
-     "out": 5.18
+     "out": 5.18,
+     "style": "bw-film-quote"
     }
    ]
   },
@@ -223,6 +509,26 @@
    "file": "mua-sam/pexels_6565836.mp4",
    "theme": "mua-sam",
    "idea": "shopping, spending",
+   "tags": [
+    "mua sắm",
+    "túi đồ",
+    "tiêu tiền",
+    "shopping bags",
+    "spending"
+   ],
+   "mood": [
+    "warm"
+   ],
+   "shot": "detail",
+   "subject": "hands",
+   "people": "hands-only",
+   "motion": "slow",
+   "good_ranges": [],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "hands holding gift bags, street",
    "title": "A Person Holding Paper Bags",
    "source": "pexels",
    "source_id": 6565836,
@@ -231,9 +537,112 @@
    "duration": 10.01,
    "width": 1080,
    "height": 1920,
-   "fps": 23.976,
+   "fps": 23.98,
+   "orientation": "portrait",
    "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 6.3,
    "used_in": []
+  },
+  {
+   "file": "xe-sang/pexels_32391975.mp4",
+   "theme": "xe-sang",
+   "idea": "luxury car",
+   "tags": [
+    "xe sang",
+    "ô tô",
+    "lái xe",
+    "đường ven biển",
+    "luxury car",
+    "driving",
+    "road",
+    "drone"
+   ],
+   "mood": [
+    "hopeful"
+   ],
+   "shot": "wide",
+   "subject": "object",
+   "people": "none",
+   "motion": "slow",
+   "good_ranges": [],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "aerial, black car on coastal road",
+   "title": "Luxury Car Driving Along Scenic Coastline Road",
+   "source": "pexels",
+   "source_id": 32391975,
+   "page": "https://www.pexels.com/video/32391975/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 33.2,
+   "width": 1080,
+   "height": 1920,
+   "fps": 25.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "bt709",
+   "hdr": false,
+   "size_mb": 104.7,
+   "used_in": []
+  },
+  {
+   "file": "xe-sang/pexels_36632263.mp4",
+   "theme": "xe-sang",
+   "idea": "luxury car",
+   "tags": [
+    "xe sang",
+    "lái xe",
+    "vô lăng",
+    "mercedes",
+    "driving pov",
+    "steering wheel",
+    "car interior"
+   ],
+   "mood": [
+    "hopeful"
+   ],
+   "shot": "medium",
+   "subject": "pov",
+   "people": "hands-only",
+   "motion": "slow",
+   "good_ranges": [
+    [
+     3.0,
+     4.82,
+     "used in DAD01_LamChuDongTien B3a"
+    ]
+   ],
+   "fits_styles": [
+    "bw-film-quote",
+    "podcast-card"
+   ],
+   "notes": "driver POV, HLG HDR source",
+   "title": "Driving POV in Modern Car on Sunny Day",
+   "source": "pexels",
+   "source_id": 36632263,
+   "page": "https://www.pexels.com/video/36632263/",
+   "license": "Pexels (free, no attribution)",
+   "duration": 23.42,
+   "width": 1080,
+   "height": 1920,
+   "fps": 60.0,
+   "orientation": "portrait",
+   "has_audio": false,
+   "color_transfer": "arib-std-b67",
+   "hdr": true,
+   "size_mb": 44.9,
+   "used_in": [
+    {
+     "project": "DAD01_LamChuDongTien",
+     "slot": "B3a",
+     "in": 3.0,
+     "out": 4.82,
+     "style": "bw-film-quote"
+    }
+   ]
   }
  ]
 }

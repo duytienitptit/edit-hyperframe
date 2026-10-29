@@ -1,0 +1,163 @@
+{
+ "language": "vi",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.24,
+   "text": "Thứ hai, con hãy nhìn cách họ đối diện với khó khăn thế nào.",
+   "words": [
+    {
+     "word": "Thứ",
+     "start": 0.0,
+     "end": 0.58,
+     "prob": 0.989
+    },
+    {
+     "word": "hai,",
+     "start": 0.58,
+     "end": 0.84,
+     "prob": 0.915
+    },
+    {
+     "word": "con",
+     "start": 1.36,
+     "end": 1.72,
+     "prob": 0.976
+    },
+    {
+     "word": "hãy",
+     "start": 1.72,
+     "end": 1.9,
+     "prob": 1.0
+    },
+    {
+     "word": "nhìn",
+     "start": 1.9,
+     "end": 2.16,
+     "prob": 1.0
+    },
+    {
+     "word": "cách",
+     "start": 2.16,
+     "end": 2.38,
+     "prob": 1.0
+    },
+    {
+     "word": "họ",
+     "start": 2.38,
+     "end": 2.6,
+     "prob": 1.0
+    },
+    {
+     "word": "đối",
+     "start": 2.6,
+     "end": 2.86,
+     "prob": 1.0
+    },
+    {
+     "word": "diện",
+     "start": 2.86,
+     "end": 3.12,
+     "prob": 1.0
+    },
+    {
+     "word": "với",
+     "start": 3.12,
+     "end": 3.3,
+     "prob": 1.0
+    },
+    {
+     "word": "khó",
+     "start": 3.3,
+     "end": 3.54,
+     "prob": 1.0
+    },
+    {
+     "word": "khăn",
+     "start": 3.54,
+     "end": 3.8,
+     "prob": 1.0
+    },
+    {
+     "word": "thế",
+     "start": 3.8,
+     "end": 3.98,
+     "prob": 1.0
+    },
+    {
+     "word": "nào.",
+     "start": 3.98,
+     "end": 4.24,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 5.2,
+   "end": 8.74,
+   "text": "Người đáng tin sẽ đứng ra gánh lấy trách nhiệm.",
+   "words": [
+    {
+     "word": "Người",
+     "start": 5.2,
+     "end": 5.72,
+     "prob": 1.0
+    },
+    {
+     "word": "đáng",
+     "start": 5.72,
+     "end": 5.96,
+     "prob": 1.0
+    },
+    {
+     "word": "tin",
+     "start": 5.96,
+     "end": 6.2,
+     "prob": 1.0
+    },
+    {
+     "word": "sẽ",
+     "start": 6.2,
+     "end": 7.14,
+     "prob": 0.996
+    },
+    {
+     "word": "đứng",
+     "start": 7.14,
+     "end": 7.36,
+     "prob": 1.0
+    },
+    {
+     "word": "ra",
+     "start": 7.36,
+     "end": 7.66,
+     "prob": 1.0
+    },
+    {
+     "word": "gánh",
+     "start": 7.66,
+     "end": 8.06,
+     "prob": 1.0
+    },
+    {
+     "word": "lấy",
+     "start": 8.06,
+     "end": 8.26,
+     "prob": 1.0
+    },
+    {
+     "word": "trách",
+     "start": 8.26,
+     "end": 8.44,
+     "prob": 1.0
+    },
+    {
+     "word": "nhiệm.",
+     "start": 8.44,
+     "end": 8.74,
+     "prob": 1.0
+    }
+   ]
+  }
+ ]
+}

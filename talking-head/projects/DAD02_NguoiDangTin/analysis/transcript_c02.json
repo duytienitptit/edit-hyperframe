@@ -1,0 +1,108 @@
+{
+ "language": "vi",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.58,
+   "text": "Thứ nhất, hãy xem khi nghe chuyện riêng tư, họ có giữ mồm giữ miệng không?",
+   "words": [
+    {
+     "word": "Thứ",
+     "start": 0.0,
+     "end": 0.66,
+     "prob": 0.993
+    },
+    {
+     "word": "nhất,",
+     "start": 0.66,
+     "end": 0.84,
+     "prob": 1.0
+    },
+    {
+     "word": "hãy",
+     "start": 1.54,
+     "end": 1.72,
+     "prob": 1.0
+    },
+    {
+     "word": "xem",
+     "start": 1.72,
+     "end": 2.06,
+     "prob": 1.0
+    },
+    {
+     "word": "khi",
+     "start": 2.06,
+     "end": 2.32,
+     "prob": 1.0
+    },
+    {
+     "word": "nghe",
+     "start": 2.32,
+     "end": 2.56,
+     "prob": 1.0
+    },
+    {
+     "word": "chuyện",
+     "start": 2.56,
+     "end": 2.82,
+     "prob": 1.0
+    },
+    {
+     "word": "riêng",
+     "start": 2.82,
+     "end": 3.1,
+     "prob": 0.995
+    },
+    {
+     "word": "tư,",
+     "start": 3.1,
+     "end": 3.34,
+     "prob": 0.932
+    },
+    {
+     "word": "họ",
+     "start": 3.68,
+     "end": 4.24,
+     "prob": 0.998
+    },
+    {
+     "word": "có",
+     "start": 4.24,
+     "end": 4.44,
+     "prob": 1.0
+    },
+    {
+     "word": "giữ",
+     "start": 4.44,
+     "end": 4.64,
+     "prob": 1.0
+    },
+    {
+     "word": "mồm",
+     "start": 4.64,
+     "end": 4.94,
+     "prob": 0.984
+    },
+    {
+     "word": "giữ",
+     "start": 4.94,
+     "end": 5.14,
+     "prob": 0.978
+    },
+    {
+     "word": "miệng",
+     "start": 5.14,
+     "end": 5.4,
+     "prob": 1.0
+    },
+    {
+     "word": "không?",
+     "start": 5.4,
+     "end": 5.58,
+     "prob": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "language": "vi",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.42,
+   "text": "Người đáng tin không nhiều, nhưng nhận ra sớm thì tránh được tai họa.",
+   "words": [
+    {
+     "word": "Người",
+     "start": 0.0,
+     "end": 0.54,
+     "prob": 0.986
+    },
+    {
+     "word": "đáng",
+     "start": 0.54,
+     "end": 0.74,
+     "prob": 0.999
+    },
+    {
+     "word": "tin",
+     "start": 0.74,
+     "end": 0.96,
+     "prob": 1.0
+    },
+    {
+     "word": "không",
+     "start": 0.96,
+     "end": 1.16,
+     "prob": 1.0
+    },
+    {
+     "word": "nhiều,",
+     "start": 1.16,
+     "end": 1.44,
+     "prob": 1.0
+    },
+    {
+     "word": "nhưng",
+     "start": 1.7,
+     "end": 2.32,
+     "prob": 0.974
+    },
+    {
+     "word": "nhận",
+     "start": 2.32,
+     "end": 2.56,
+     "prob": 1.0
+    },
+    {
+     "word": "ra",
+     "start": 2.56,
+     "end": 2.74,
+     "prob": 1.0
+    },
+    {
+     "word": "sớm",
+     "start": 2.74,
+     "end": 3.1,
+     "prob": 1.0
+    },
+    {
+     "word": "thì",
+     "start": 3.1,
+     "end": 3.3,
+     "prob": 1.0
+    },
+    {
+     "word": "tránh",
+     "start": 3.3,
+     "end": 3.52,
+     "prob": 1.0
+    },
+    {
+     "word": "được",
+     "start": 3.52,
+     "end": 3.7,
+     "prob": 1.0
+    },
+    {
+     "word": "tai",
+     "start": 3.7,
+     "end": 3.86,
+     "prob": 0.999
+    },
+    {
+     "word": "họa.",
+     "start": 3.86,
+     "end": 4.42,
+     "prob": 0.987
+    }
+   ]
+  },
+  {
+   "start": 5.34,
+   "end": 8.82,
+   "text": "Tin sai một lần, đôi khi phải trả giá cả đời.",
+   "words": [
+    {
+     "word": "Tin",
+     "start": 5.34,
+     "end": 5.82,
+     "prob": 0.999
+    },
+    {
+     "word": "sai",
+     "start": 5.82,
+     "end": 6.08,
+     "prob": 1.0
+    },
+    {
+     "word": "một",
+     "start": 6.08,
+     "end": 6.28,
+     "prob": 0.999
+    },
+    {
+     "word": "lần,",
+     "start": 6.28,
+     "end": 6.52,
+     "prob": 1.0
+    },
+    {
+     "word": "đôi",
+     "start": 7.26,
+     "end": 7.5,
+     "prob": 1.0
+    },
+    {
+     "word": "khi",
+     "start": 7.5,
+     "end": 7.66,
+     "prob": 1.0
+    },
+    {
+     "word": "phải",
+     "start": 7.66,
+     "end": 7.9,
+     "prob": 1.0
+    },
+    {
+     "word": "trả",
+     "start": 7.9,
+     "end": 8.14,
+     "prob": 1.0
+    },
+    {
+     "word": "giá",
+     "start": 8.14,
+     "end": 8.36,
+     "prob": 1.0
+    },
+    {
+     "word": "cả",
+     "start": 8.36,
+     "end": 8.54,
+     "prob": 1.0
+    },
+    {
+     "word": "đời.",
+     "start": 8.54,
+     "end": 8.82,
+     "prob": 1.0
+    }
+   ]
+  }
+ ]
+}

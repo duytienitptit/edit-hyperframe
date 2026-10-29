@@ -24,10 +24,17 @@ Each video belongs to a channel folder in `~/01_Projects/` (e.g. `Channel_Dad`),
 | Style | File | First used |
 |---|---|---|
 | Old-film quote, full color + safe-zone layout + keyword lockups (file name kept from its B&W start) | `styles/bw-film-quote.md` (refs in `styles/refs/`) | DAD01_LamChuDongTien |
+| Podcast card: rounded card on black, word-by-word kinetic captions, cinematic b-roll (DRAFT, awaiting approval) | `styles/podcast-card.md` (refs `styles/refs/podcast_*`) | — |
 
 Every project states its style in `project.md`. A new style gets its own file; do not silently edit a style another project depends on.
 
 ## B-roll
+One shared library for every talking-head style and channel (user, 2026-10-29: finding b-roll is the most expensive step, so every clip must be findable and reusable).
+- Library first: `python3 ../../../tools/broll_index.py search <words> [--mood --people --shot --orient --min-dur --style --unused]` (diacritics ignored, also lists past web searches). Only slots with no fitting clip go to the web.
+- Every web search is logged in `../library/broll/searches.json` (date, site, query, for = idea/line, seen ids, picked ids, rejected id → reason), so the next video reuses the review instead of re-browsing.
+- Download the whole clip, never an excerpt; another video may want another part.
+- After downloading: `python3 ../../../tools/broll_index.py scan --thumbs` (probe, stub entries, thumbnail strips in `_thumbs/`, local only), then fill the descriptive fields by looking at the strip: idea, tags (Vietnamese + English), mood, shot, subject, people, motion, good_ranges, fits_styles, notes (vocabulary in `index.json` `_vocab`). `check` must report 0 problems before committing. Add `used_in` (project, style, slot, in, out) when a clip is placed, and its range to good_ranges.
+- Folder = theme, one short kebab-case idea (`dem-tien`, `giu-bi-mat`); reuse an existing theme before creating one, never rename or move a folder (comps link into it).
 - Claude finds the b-roll (user asked, 2026-10-21): plan slots in `edit/broll.json` (timeline: start, end, line, theme), search Pexels in the built-in browser (`/search/videos/<q>/?orientation=portrait`; the page's `__NEXT_DATA__` JSON gives id, title, duration, size and the 1080-wide `video_files` link), pick a main + alt per slot from the thumbnails (prefer hands / no faces or Asian subjects, no readable foreign text), then ask the user to approve the download list (file, source, MB) before fetching.
 - Files arriving go to `../library/broll/<theme>/` (theme = short kebab-case idea, e.g. `dem-tien`, `mat-ngu`, `xe-sang`), never into the project, named `<source>_<id>.mp4`; each clip gets an entry in `../library/broll/index.json` (theme, idea, source page, duration, size, used_in). The comp symlinks them into `comp/assets/broll/`. Search the index before searching the web. Pexels' "hd_1080_1920" links sometimes deliver 720p — check with ffprobe after download. Also check `color_transfer`: some phone clips are HDR (HLG `arib-std-b67` / PQ, bt2020) — see Render.
 - Specs (search or ask for): ≥ slot length + 1 s handle each side, no burned-in text / logos / watermarks, steady or slow motion, subject centered (16:9 gets center-cropped to 9:16). Color does not matter when the style grades it.

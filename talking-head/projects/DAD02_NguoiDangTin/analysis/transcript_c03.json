@@ -1,0 +1,169 @@
+{
+ "language": "vi",
+ "segments": [
+  {
+   "start": 0.52,
+   "end": 5.34,
+   "text": "Người đem bí mật người khác kể cho con, sớm muộn cũng đem chuyện con kể cho người khác.",
+   "words": [
+    {
+     "word": "Người",
+     "start": 0.42,
+     "end": 0.66,
+     "prob": 0.953
+    },
+    {
+     "word": "đem",
+     "start": 0.66,
+     "end": 0.88,
+     "prob": 0.999
+    },
+    {
+     "word": "bí",
+     "start": 0.88,
+     "end": 1.06,
+     "prob": 1.0
+    },
+    {
+     "word": "mật",
+     "start": 1.06,
+     "end": 1.28,
+     "prob": 1.0
+    },
+    {
+     "word": "người",
+     "start": 1.28,
+     "end": 1.46,
+     "prob": 1.0
+    },
+    {
+     "word": "khác",
+     "start": 1.46,
+     "end": 1.7,
+     "prob": 1.0
+    },
+    {
+     "word": "kể",
+     "start": 1.7,
+     "end": 1.96,
+     "prob": 1.0
+    },
+    {
+     "word": "cho",
+     "start": 1.96,
+     "end": 2.14,
+     "prob": 1.0
+    },
+    {
+     "word": "con,",
+     "start": 2.14,
+     "end": 2.4,
+     "prob": 1.0
+    },
+    {
+     "word": "sớm",
+     "start": 2.72,
+     "end": 3.3,
+     "prob": 0.994
+    },
+    {
+     "word": "muộn",
+     "start": 3.3,
+     "end": 3.56,
+     "prob": 1.0
+    },
+    {
+     "word": "cũng",
+     "start": 3.56,
+     "end": 3.76,
+     "prob": 1.0
+    },
+    {
+     "word": "đem",
+     "start": 3.76,
+     "end": 4.0,
+     "prob": 1.0
+    },
+    {
+     "word": "chuyện",
+     "start": 4.0,
+     "end": 4.26,
+     "prob": 0.999
+    },
+    {
+     "word": "con",
+     "start": 4.26,
+     "end": 4.48,
+     "prob": 1.0
+    },
+    {
+     "word": "kể",
+     "start": 4.48,
+     "end": 4.74,
+     "prob": 1.0
+    },
+    {
+     "word": "cho",
+     "start": 4.74,
+     "end": 4.9,
+     "prob": 1.0
+    },
+    {
+     "word": "người",
+     "start": 4.9,
+     "end": 5.04,
+     "prob": 1.0
+    },
+    {
+     "word": "khác.",
+     "start": 5.04,
+     "end": 5.34,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 6.6,
+   "end": 9.3,
+   "text": "Với người như vậy, đừng tin.",
+   "words": [
+    {
+     "word": "Với",
+     "start": 6.6,
+     "end": 7.08,
+     "prob": 1.0
+    },
+    {
+     "word": "người",
+     "start": 7.08,
+     "end": 7.26,
+     "prob": 1.0
+    },
+    {
+     "word": "như",
+     "start": 7.26,
+     "end": 7.46,
+     "prob": 1.0
+    },
+    {
+     "word": "vậy,",
+     "start": 7.46,
+     "end": 7.68,
+     "prob": 1.0
+    },
+    {
+     "word": "đừng",
+     "start": 8.36,
+     "end": 9.04,
+     "prob": 0.997
+    },
+    {
+     "word": "tin.",
+     "start": 9.04,
+     "end": 9.3,
+     "prob": 1.0
+    }
+   ]
+  }
+ ]
+}
